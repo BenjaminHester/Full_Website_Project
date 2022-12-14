@@ -159,4 +159,23 @@ a:hover {
     padding: 5px;
     width: 90%;
   }
-  
+  footer {
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  @media (max-width: 768px) {
+    header .container, #newsletter .container, #boxes .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #showcase .container {
+        padding-bottom: 50px;
+    }
+    .box {
+        width: 80%;
+    }
+  }
